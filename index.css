@@ -131,4 +131,5 @@ a{text-decoration:none;}
 .faa-pulse{-webkit-animation: pulse 3s linear infinite;animation:pulse 3s linear infinite}
 @-webkit-keyframes pulse {0%{-webkit-transform:scale(1.1);transform:scale(1.1);}50%{-webkit-transform:scale(0.8);transform:scale(0.8);}100%{-webkit-transform:scale(1.1);transform:scale(1.1);}}
 @keyframes pulse { 0%{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform: scale(1.1);}50% {-webkit-transform:scale(0.8);-ms-transform: scale(0.8);transform:scale(0.8);}100% {-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}}
-.scrolldown-fab { color: white !important; background: #425c78 !important; right: inherit !important;}
+.scrolldown-fab { color: white !important; background: #425c78 !important; right: 0 !important; left: 0 !important;}
+.center-align { justify-content: center }
