@@ -58,10 +58,10 @@ width 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
 .android-wear-band-text{max-width:800px;margin-left:25%;padding:24px;text-align:left;color:white;}
 .android-wear-band-text p{padding-top:8px;}
 .android-link{text-decoration:none;color:#2d3f51 !important;}
-.android-link:hover{color:#7cb342 !important;}
+.android-link:hover{color:#425d78 !important}
 .android-link .material-icons{position:relative;top:-1px;vertical-align:middle;}
-.android-alt-link{text-decoration:none;color:#8AD830 !important;font-size:16px;}
-.android-alt-link:hover{color:#8AD830 !important;}
+.android-alt-link{text-decoration:none;color:#425d78 !important;font-size:16px;}
+.android-alt-link:hover{color:#425d78 !important;}
 .android-alt-link .material-icons{position:relative;top:6px;}
 .android-customized-section{text-align:center;}
 .android-customized-section-text{max-width:500px;margin-left:auto;margin-right:auto;padding:80px 16px 0 16px;}
