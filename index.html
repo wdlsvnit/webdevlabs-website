@@ -43,6 +43,7 @@
 
   <style>#view-source{position:fixed;display:block;right:0;bottom:0;margin-right:40px;margin-bottom:40px;z-index:900}</style>
   <script async>function initMap(){var c={lat:21.16196,lng:72.785074};var b=new google.maps.Map(document.getElementById("map"),{zoom:14,scrollwheel:false,center:c});var a=new google.maps.Marker({position:c,map:b,title:"GDG NIT SURAT"})}</script>
+  
 </head>
 <body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -61,8 +62,8 @@
             <a class="mdl-navigation__link mdl-typography--text-uppercase" href=#contactus>Contact</a>
           </nav>
         </div>
-        <span class="android-mobile-title mdl-layout-title">
-          <img class=android-logo-image src=images/GDGSURAT.png>
+        <span id="mlogo" class="android-mobile-title mdl-layout-title" style="opacity: 0">
+          <img class=android-logo-image src=images/webdevlabs.png>
         </span>
       </div>
     </div>
@@ -82,7 +83,7 @@
         <a class=mdl-navigation__link href=https://twitter.com/wdlsvnit>Twitter</a>
       </nav>
     </div>
-    <div class="android-content mdl-layout__content">
+    <div class="android-content mdl-layout__content" id="mbody">
       <a name=top></a>
       <div class="android-be-together-section mdl-typography--text-center" id=home>
         <script>$(function(){$("#element").typed({strings:["Designers","Developers","Entrepreneurs","Coders","Doers","Believers"],typeSpeed:10,backDelay:1000,loop:true,showCursor:false})});</script>
@@ -96,7 +97,7 @@
             <span id=element class=crawltext></span>
           </div>
         </div>
-        <a href=#screens class="">
+        <a href=#screens>
           <button class="android-fab scrolldown-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
             <i class=material-icons>expand_more</i>
           </button>
@@ -345,7 +346,17 @@
 </div>
 </div>
 <script async src=https://code.getmdl.io/1.1.1/material.min.js></script>
-
+<script type="text/javascript">
+    document.querySelector('#mbody').addEventListener('scroll', (e) => {
+      var logo = document.querySelector('#mlogo');
+      if(document.querySelector('#mbody').scrollTop > 450){
+        logo.style.opacity = 1;
+      }
+      else{
+        logo.style.opacity = 0;
+      }
+    });
+  </script>
 
 </body>
 </html>
