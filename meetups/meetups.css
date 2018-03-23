@@ -83,3 +83,7 @@
 .mdl-card__supporting-text {
   font-size: 16px;
 }
+
+.nav-icon>i {
+  color: #424242;
+}
