@@ -69,6 +69,7 @@
   margin: 0 auto;
   width: 50vw;
 }
+
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 30vh;
@@ -85,4 +86,15 @@
 
 .nav-icon > i {
   color: #424242;
+}
+@media screen and (max-width:839px) and (min-width:400px)
+{
+  .demo-card-wide.mdl-card {
+      width: 70vw;
+  }
+}
+@media (max-width:400px){
+  .demo-card-wide.mdl-card {
+      width: 70vw;
+  }
 }
