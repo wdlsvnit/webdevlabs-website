@@ -90,7 +90,7 @@ width 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
 .mdl-mega-footer--center-section > p{margin-top:10px;}
 @media (max-width:900px){.android-navigation-container{display:none;}
 .android-title{display:none !important;}
-.android-mobile-title{display:block !important;position:absolute;left:calc(50% - 30px);top:12px;transition:opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
+.android-mobile-title{display:block !important;position:absolute;left:calc(50% - 71.5px);top:12px;transition:opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
 .android.android-search-box.is-focused ~ .android-mobile-title,
 .android-search-box.is-focused + .android-navigation-container + .android-mobile-title{opacity:0;}
 .android-more-button{display:none;}
