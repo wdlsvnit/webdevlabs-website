@@ -105,7 +105,7 @@ width 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
 .android-wear-band-text{margin-left:0;padding:16px;}
 .android-footer .mdl-mega-footer--bottom-section{display:none;}
 }
-.teamimg{height:200px;width:200px;border-radius:100px;}
+.teamimg{height:180px;width:180px;border-radius:90px;}
 #map{height:450px;}
 .center{display:block;margin:0 auto;padding:20px;max-width:25vw;max-height:25vw;}
 #glogo{margin-top:4vw;}
@@ -133,3 +133,4 @@ a{text-decoration:none;}
 @keyframes pulse { 0%{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform: scale(1.1);}50% {-webkit-transform:scale(0.8);-ms-transform: scale(0.8);transform:scale(0.8);}100% {-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}}
 .scrolldown-fab { color: white !important; background: #425c78 !important; right: 0 !important; left: 0 !important;}
 .center-align { justify-content: center }
+.mdl-cell--3-col { padding-left: 16px; }
