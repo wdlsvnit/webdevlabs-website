@@ -28,7 +28,7 @@ width 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
 .android-drawer span.mdl-navigation__link.mdl-navigation__link{color:#2d3f51;}
 .android-drawer .mdl-layout-title{position:relative;background:#425c78;height:160px;display:none;}
 .android-drawer .android-logo-image{position:absolute;bottom:16px;}
-.android-be-together-section{position:relative;height:50vw;width:auto;background-color:#f3f3f3;background:url('images/cvrpic1.jpg') center 30% no-repeat;background-size:cover;background-attachment:fixed;}
+.android-be-together-section{position:relative;height:50vw;width:auto;background-color:#f3f3f3;background:url('images/cover1.jpg') center 30% no-repeat;background-size:cover;background-attachment:fixed;}
 @media (max-width:600px){.android-be-together-section{height:20vw;}
 }
 .logo-font{font-family:'Roboto', 'Helvetica', 'Arial', sans-serif;line-height:1;color:#767777;font-weight:500;}
