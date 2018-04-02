@@ -134,3 +134,6 @@ a{text-decoration:none;}
 .scrolldown-fab { color: white !important; background: #425c78 !important; right: 0 !important; left: 0 !important;}
 .center-align { justify-content: center }
 .mdl-cell--3-col { padding-left: 16px; }
+.mdl-cell--4-col { padding-left: 16px; }
+.mdl-cell--6-col { padding-left: 16px; }
+.mdl-cell--12-col { padding-left: 16px; }
